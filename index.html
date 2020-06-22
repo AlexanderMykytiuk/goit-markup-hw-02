@@ -4,30 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
-  <body>
+  <body class="page">
     <!--Шапка-->
     <header>
       <nav>
-        <a href="/"><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портволио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" class="logo list"><span class="logo-color">Web</span>Studio</a>
+        
+        <ul class="sait-nav list">
+          <li><a href="" class="link">Студия</a></li>
+          <li><a href="" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
+      <ul class="auth-nav list">
+        <li><a href="" class="email">info@devstudio.com</a></li>
+        <li><a href="" class="phone">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!--Уникальный контент-->
     <main>
       <!--Секция №1 Герой-->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <a href="" class="hero-link">Заказать услугу</a>
         <img
           src="/images/BG/BGoffice.jpg"
           alt="Люди в офисе"
@@ -36,13 +38,13 @@
         />
       </section>
       <!--Секция №2 Преимущества-->
-      <section>
-        <h2>Мы обещаем</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title">Мы обещаем</h2>
+        <ul class="benefits-list">
           <li>
             <img src="/images/Icon/antenna.svg" alt="Спутник" />
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -74,8 +76,8 @@
         </ul>
       </section>
       <!--Секция №3 Услуги-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -102,8 +104,8 @@
         </ul>
       </section>
       <!--Секция №4 Команда-->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -172,8 +174,8 @@
         </ul>
       </section>
       <!--Секция №5 Клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="">
@@ -236,6 +238,7 @@
           <img src="/images/SmallIcon/IconSend.svg" alt="Бумажный самолетик" />
         </button>
       </div>
+      <p>2020 &#x0007C Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
