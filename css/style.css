@@ -23,7 +23,9 @@
 
 /* Бекграунд футера #2F303A; */
 
-/* Почта ы тел. в футере rgba(255, 255, 255, 0.6); */
+/* Цвет не активных иконок #AFB1B8; */
+
+/* Почта и тел. в футере rgba(255, 255, 255, 0.6); */
 
 /* Подпись  rgba(255, 255, 255, 0.4);*/
 
@@ -65,11 +67,35 @@
 .hero-title {
   color: #ffffff;
 }
+
 .hero-link {
   color: #ffffff;
 }
 
-/* Sections */
+.hero-link:hover,
+.hero-link:focus {
+  color: #2196f3;
+}
+
+/* Section #2 */
 .section-title {
   color: #212121;
 }
+
+.benefits-item .text {
+  color: #757575;
+}
+
+/* Section #3 */
+.examples-item .title {
+  color: #ffffff;
+}
+
+/* Section #4 */
+.team-items .position {
+  color: #757575;
+}
+
+/* Section #5 */
+
+/* Footer */
