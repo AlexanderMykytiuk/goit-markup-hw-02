@@ -17,6 +17,9 @@
 .page {
   color: var(--primary-text-color);
   background-color: var(--white-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Утелиты */
@@ -24,9 +27,17 @@
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Хедер */
 .logo {
   color: var(--blake-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-color {
@@ -35,6 +46,10 @@
 
 .sait-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .sait-nav .link:hover,
@@ -48,6 +63,10 @@
 
 .auth-nav {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .email:hover,
@@ -101,39 +120,85 @@
 /* Footer */
 .directions {
   color: var(--footer-contacts-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
-.directions .addresss {
+.directions .address {
   color: var(--white-color);
 }
 
 .socials .title {
   color: var(--white-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .active .title {
   color: var(--white-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
-.button-title {
+.sent-title {
   color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
-.button:hover,
-.button:focus {
+.sent {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 .property {
   color: var(--property-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 /* Уникальний контент portfolio.html */
+.examples .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 .examples .outline {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .examples .popup {
   color: var(--white-color);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
