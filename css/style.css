@@ -130,3 +130,10 @@
 }
 
 /* Уникальний контент portfolio.html */
+.examples .outline {
+  color: var(--text-color);
+}
+
+.examples .popup {
+  color: var(--white-color);
+}
