@@ -1,7 +1,22 @@
+/* CSS перемены */
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --blake-color: #000000;
+  --border-lab-color: #afb1b8;
+  --icon-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --shadow-bg-color: rgba(47, 48, 58, 0.8);
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --property-color: rgba(255, 255, 255, 0.4);
+}
+
 /* Общие настройки */
 .page {
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
 }
 
 /* Утелиты */
@@ -9,93 +24,109 @@
   list-style: none;
 }
 
-/* Цвет основного текста #212121;*/
-
-/* Цвет акцента #2196F3; */
-
-/* Вторичный цвет текста #757575;*/
-
-/* Белый цвет текста #FFFFFF;*/
-
-/* Цвет тени background: rgba(47, 48, 58, 0.8);*/
-
-/* Бекграунд иконки #F5F4FA;*/
-
-/* Бекграунд футера #2F303A; */
-
-/* Цвет не активных иконок #AFB1B8; */
-
-/* Почта и тел. в футере rgba(255, 255, 255, 0.6); */
-
-/* Подпись  rgba(255, 255, 255, 0.4);*/
-
 /* Хедер */
 .logo {
-  color: #000000;
+  color: var(--blake-color);
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .sait-nav .link {
-  color: #2196f3;
+  color: var(--primary-text-color);
 }
 
 .sait-nav .link:hover,
 .sait-nav .link:focus {
-  color: #212121;
+  color: var(--accent-color);
+}
+
+.sait-nav .link.current {
+  color: var(--accent-color);
 }
 
 .auth-nav {
-  color: #757575;
+  color: var(--text-color);
 }
 
 .auth-nav .email:hover,
 .auth-nav .email:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .auth-nav .phone:hover,
 .auth-nav .phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-/* Уникальний контент */
+/* Уникальний контент index.html */
 
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-link {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-link:hover,
 .hero-link:focus {
-  color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* Section #2 */
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .benefits-item .text {
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* Section #3 */
 .examples-item .title {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* Section #4 */
 .team-items .position {
-  color: #757575;
+  color: var(--text-color);
 }
 
 /* Section #5 */
 
 /* Footer */
+.directions {
+  color: var(--footer-contacts-color);
+}
+
+.directions .addresss {
+  color: var(--white-color);
+}
+
+.socials .title {
+  color: var(--white-color);
+}
+
+.active .title {
+  color: var(--white-color);
+}
+
+.button-title {
+  color: var(--white-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.property {
+  color: var(--property-color);
+}
+
+/* Уникальний контент portfolio.html */
