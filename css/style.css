@@ -12,7 +12,7 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --property-color: rgba(255, 255, 255, 0.4);
 }
-#F5F4FA;
+
 /* Общие настройки */
 .page {
   background-color: var(--white-color);
@@ -207,8 +207,8 @@ a {
 }
 
 /* Footer BG color*/
-.footer-bg{
-  background-color:var(--footer-bg-color);
+.footer-bg {
+  background-color: var(--footer-bg-color);
 }
 
 /* Уникальний контент portfolio.html */
