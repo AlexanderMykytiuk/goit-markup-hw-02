@@ -167,11 +167,12 @@ a {
   color: var(--footer-contacts-color);
 
   line-height: 1.71;
-  font-style: normal;
 }
 
-.directions .address {
+.directions .item {
   color: var(--white-color);
+
+  font-style: normal;
 }
 
 .socials .title,
